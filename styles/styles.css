@@ -350,6 +350,10 @@ body {
   text-decoration: none;
 }
 
+.catalog-filter {
+  display: flex;
+}
+
 .catalog-filter-group {
   color: var(--white);
 }
@@ -364,12 +368,27 @@ body {
   line-height: 1.3;
 }
 
+.sorting {
+  display: flex;
+  width: 1056px;
+}
+
 .catalog-hotels-result {
   font-weight: bold;
   font-size: 30px;
   line-height: 1.3;
   text-transform: uppercase;
   color: var(--black);
+  width: 337px;
+  margin-right: 192px;
+}
+
+.product-list {
+  width: 1056px;
+}
+
+.product-card {
+  width: 340px;
 }
 
 .product-card-title {
@@ -395,6 +414,11 @@ body {
   line-height: 1.3;
   text-transform: uppercase;
   color: var(--primary-font-color);
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .pagination-item {
