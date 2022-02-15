@@ -5,51 +5,56 @@
   <title>Каталог</title>
   <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
-<header class="page-header">
-  <nav class="navigation">
-    <a class="navigation-logo" href="#">
-      <img class="page-header-logo" src="images/icons/logo.svg" width="139" height="70" alt="Логотип 'City of Sedona'.">
-    </a>
+<body class="page">
 
-    <ul class="navigation-list">
-      <li class="navigation-item">
-        <a class="navigation-link" href="index.html">Главная</a>
-      </li>
+<div class="page-container">
 
-      <li class="navigation-item">
-        <a class="navigation-link" href="#">О Седоне</a>
-      </li>
+  <header class="page-header">
+    <nav class="navigation">
+      <a class="navigation-logo" href="#">
+        <img
+          class="page-header-logo" src="images/icons/logo.svg" width="139" height="70" alt="Логотип 'City of Sedona'."
+        >
+      </a>
 
-      <li class="navigation-item">
-        <a class="navigation-link" href="#" aria-current="page">Гостиницы</a>
-      </li>
-    </ul>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="navigation-link" href="index.html">Главная</a>
+        </li>
 
-    <ul class="navigation-list navigation-user">
-      <li class="navigation-item">
-        <a class="navigation-link" href="#">
-          <span class="visually-hidden">Поиск</span>
-        </a>
-      </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">О Седоне</a>
+        </li>
 
-      <li class="navigation-item">
-        <a class="navigation-link" href="#">
-          <span class="visually-hidden">Избранное</span>
-        </a>
-      </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#" aria-current="page">Гостиницы</a>
+        </li>
+      </ul>
 
-      <li class="navigation-item">
-        <a class="button button-secondary button-small" href="#">
-          Хочу сюда!
-        </a>
-      </li>
-    </ul>
-  </nav>
-</header>
+      <ul class="navigation-list navigation-user">
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden">Поиск</span>
+          </a>
+        </li>
 
-<main class="main-inner">
-  <div class="page-container">
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden">Избранное</span>
+          </a>
+        </li>
+
+        <li class="navigation-item">
+          <a class="button button-secondary button-small" href="#">
+            Хочу сюда!
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-inner">
+
     <header class="inner-header">
       <h1 class="inner-header-title">Гостиницы Седоны</h1>
 
@@ -245,7 +250,9 @@
         </li>
       </ul>
 
-      <button class="button button-primary button-large" type="button">Загрузить ещё</button>
+      <div class="load-more-container">
+        <button class="button button-primary button-large" type="button">Загрузить ещё</button>
+      </div>
 
       <div class="pagination-container">
         <ul class="pagination">
@@ -301,53 +308,53 @@
         <button class="button button-primary button-large" type="submit">Подписаться</button>
       </form>
     </section>
-  </div>
-</main>
+  </main>
 
-<footer class="page-footer">
-  <div class="page-footer-container">
-    <section class="footer-socials">
-      <h2 class="visually-hidden">Социальные сети</h2>
+  <footer class="page-footer">
+    <div class="page-footer-container">
+      <section class="footer-socials">
+        <h2 class="visually-hidden">Социальные сети</h2>
 
-      <ul class="footer-socials-list">
-        <li class="footer-socials-item">
-          <a class="social-link" href="#">
-            <span class="visually-hidden">Twitter</span>
+        <ul class="footer-socials-list">
+          <li class="footer-socials-item">
+            <a class="social-link" href="#">
+              <span class="visually-hidden">Twitter</span>
+            </a>
+          </li>
+
+          <li class="footer-socials-item">
+            <a class="social-link" href="#">
+              <span class="visually-hidden">Facebook</span>
+            </a>
+          </li>
+
+          <li class="footer-socials-item">
+            <a class="social-link" href="#">
+              <span class="visually-hidden">Youtube</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer-contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+
+        <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      </section>
+
+      <section class="made-in">
+        <h2 class="visually-hidden">Сделано в HTML Academy</h2>
+        <p class="made-in-text">
+          <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+            <img
+              class="htmlacademy-logo" src="images/icons/logo_htmlacademy.svg" width="115" height="34"
+              alt="Логотип HTML Academy."
+            >
           </a>
-        </li>
-
-        <li class="footer-socials-item">
-          <a class="social-link" href="#">
-            <span class="visually-hidden">Facebook</span>
-          </a>
-        </li>
-
-        <li class="footer-socials-item">
-          <a class="social-link" href="#">
-            <span class="visually-hidden">Youtube</span>
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="footer-contacts">
-      <h2 class="visually-hidden">Контакты</h2>
-
-      <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-    </section>
-
-    <section class="made-in">
-      <h2 class="visually-hidden">Сделано в HTML Academy</h2>
-      <p class="made-in-text">
-        <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-          <img
-            class="htmlacademy-logo" src="images/icons/logo_htmlacademy.svg" width="115" height="34"
-            alt="Логотип HTML Academy."
-          >
-        </a>
-      </p>
-    </section>
-  </div>
-</footer>
+        </p>
+      </section>
+    </div>
+  </footer>
+</div>
 </body>
 </html>
