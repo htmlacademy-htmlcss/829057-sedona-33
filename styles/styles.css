@@ -94,15 +94,24 @@ body {
   font-size: 20px;
 }
 
+.page {
+  background-color: var(--light);
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: var(--white);
+}
+
 .page-header {
   color: var(--black);
   background-color: var(--white);
+  padding: 0 70px;
 }
 
 .navigation {
   display: flex;
-  width: 1060px;
-  margin: 0 auto;
 }
 
 .navigation-logo {
@@ -136,22 +145,24 @@ body {
   flex-grow: 1;
 }
 
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .intro {
   background-color: var(--white);
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   text-align: center;
+  padding-top: 51px;
+  padding-bottom: 82px;
 }
 
 .welcome {
   display: block;
   margin: 0 auto;
+}
+
+.reasons-container {
+  padding-top: 63px;
+  padding-bottom: 80px;
 }
 
 .reasons-title {
@@ -174,7 +185,6 @@ body {
 }
 
 .reasons-item-main {
-  width: 1200px;
   color: var(--white);
   background-color: var(--primary);
 }
@@ -182,6 +192,7 @@ body {
 .reasons-item-container {
   width: 400px;
   text-align: center;
+  padding: 97px 90px 87px;
 }
 
 .reasons-item-image {
@@ -221,11 +232,14 @@ body {
 .advantages-list {
   background-color: var(--white);
   color: var(--black);
+  padding: 0;
+  margin: 0;
 }
 
 .advantages-item {
   width: 400px;
   text-align: center;
+  padding: 89px 75px 79px;
 }
 
 .advantages-item:nth-child(odd) {
@@ -252,7 +266,7 @@ body {
 
 .offer {
   text-align: center;
-  width: 1200px;
+  padding: 91px 240px 93px;
 }
 
 .offer-title {
@@ -275,7 +289,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   color: var(--white);
-  width: 1200px;
+  padding: 94px 200px 93px;
 }
 
 .newsletter-title {
@@ -292,13 +306,20 @@ body {
 
 .page-footer-container {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
+  padding-left: 72px;
+  padding-right: 72px;
 }
 
 .footer-socials {
   width: 107px;
+  margin-top: 49px;
   margin-right: 61px;
+  margin-bottom: 53px;
+}
+
+.footer-socials-list {
+  margin: 0;
+  padding: 0;
 }
 
 .social-link {
@@ -310,6 +331,7 @@ body {
 .footer-contacts {
   width: 720px;
   text-align: center;
+  margin: 40px 0;
 }
 
 .footer-contacts-phone {
@@ -322,7 +344,9 @@ body {
 
 .made-in {
   width: 115px;
+  margin-top: 42px;
   margin-left: auto;
+  margin-bottom: 44px;
 }
 
 .inner-header {
