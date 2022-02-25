@@ -258,7 +258,7 @@
       </ul>
 
       <div class="load-more-container">
-        <button class="button button-primary button-large" type="button">Загрузить ещё</button>
+        <a class="button button-primary button-large catalog-button" href="#">Загрузить ещё</a>
       </div>
 
       <div class="pagination-container">
@@ -308,7 +308,7 @@
       <p class="newsletter-text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
 
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label for="newsletter-email">Email</label>
+        <label class="visually-hidden" for="newsletter-email">Email</label>
         <input class="field" type="text" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail" required>
         <button class="button button-primary button-large subscribe-button" type="submit">Подписаться</button>
       </form>
@@ -316,45 +316,46 @@
   </main>
 
   <footer class="page-footer">
-    <div class="page-footer-container">
-      <section class="footer-socials">
-        <h2 class="visually-hidden">Социальные сети</h2>
+    <section class="footer-socials">
+      <h2 class="visually-hidden">Социальные сети</h2>
 
-        <ul class="footer-socials-list">
-          <li class="footer-socials-item">
-            <a class="social-link" href="#">
-              <span class="visually-hidden">Twitter</span>
-            </a>
-          </li>
-
-          <li class="footer-socials-item">
-            <a class="social-link" href="#">
-              <span class="visually-hidden">Facebook</span>
-            </a>
-          </li>
-
-          <li class="footer-socials-item">
-            <a class="social-link" href="#">
-              <span class="visually-hidden">Youtube</span>
-            </a>
-          </li>
-        </ul>
-      </section>
-
-      <section class="footer-contacts">
-        <h2 class="visually-hidden">Контакты</h2>
-        <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      </section>
-
-      <section class="made-in">
-        <h2 class="visually-hidden">Сделано в HTML Academy</h2>
-        <p class="made-in-text">
-          <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-            <img class="htmlacademy-logo" src="images/icons/logo_htmlacademy.svg" width="115" height="34" alt="Логотип HTML Academy.">
+      <ul class="footer-socials-list">
+        <li class="footer-socials-item">
+          <a class="social-link" href="#">
+            <span class="visually-hidden">Twitter</span>
           </a>
-        </p>
-      </section>
-    </div>
+        </li>
+
+        <li class="footer-socials-item">
+          <a class="social-link" href="#">
+            <span class="visually-hidden">Facebook</span>
+          </a>
+        </li>
+
+        <li class="footer-socials-item">
+          <a class="social-link" href="#">
+            <span class="visually-hidden">Youtube</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="footer-contacts">
+      <h2 class="visually-hidden">Контакты</h2>
+      <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+    </section>
+
+    <section class="made-in">
+      <h2 class="visually-hidden">Сделано в HTML Academy</h2>
+      <p class="made-in-text">
+        <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+          <img
+            class="htmlacademy-logo" src="images/icons/logo_htmlacademy.svg" width="115" height="34"
+            alt="Логотип HTML Academy."
+          >
+        </a>
+      </p>
+    </section>
   </footer>
 </div>
 </body>
