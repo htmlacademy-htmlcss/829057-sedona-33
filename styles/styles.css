@@ -651,7 +651,6 @@ body {
 }
 
 .product-card-category {
-  /*margin-right: 25px;*/
   grid-column: 1 / 2;
   grid-row: 3 / 4;
 }
@@ -689,8 +688,6 @@ body {
   width: 160px;
   padding: 10px 0;
   margin: 0;
-  /*margin-left: auto;*/
-  /*margin-top: 16px;*/
 }
 
 .load-more-container {
